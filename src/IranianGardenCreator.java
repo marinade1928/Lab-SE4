@@ -24,4 +24,20 @@ public class IranianGardenCreator implements AbstractGardenCreator {
     public Khatmi getResult(){
         return new Khatmi(color, numberOfFlowers);
     }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public int getNumberOfFlowers() {
+        return numberOfFlowers;
+    }
+
+    public int getNumberOfTrees() {
+        return numberOfTrees;
+    }
+
+    public int getTreeHight() {
+        return treeHight;
+    }
 }

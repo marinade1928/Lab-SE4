@@ -24,4 +24,20 @@ public class JapaneseGardenCreator implements AbstractGardenCreator{
     public G1 getResult(){
         return new G1(color, numberOfFlowers);
     }
+
+    public int getTreeHight() {
+        return treeHight;
+    }
+
+    public int getNumberOfTrees() {
+        return numberOfTrees;
+    }
+
+    public int getNumberOfFlowers() {
+        return numberOfFlowers;
+    }
+
+    public Color getColor() {
+        return color;
+    }
 }
